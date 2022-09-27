@@ -1,14 +1,31 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
+    <Header></Header>
     <router-view />
+    <Footer></Footer>
   </div>
 </template>
 
+<script>
+import Header from '@/components/Header.vue'
+import Footer from '@/components/Footer.vue'
+export default {
+  name: 'App',
+  components: {
+    Header,
+    Footer
+  }
+};
+</script>
 <style>
+  @font-face {
+  font-family: "IBMPlexRegular";
+  src: url(./fonts/IBMPlexSans-Regular.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "IBMPlexBold";
+    src: url(./fonts/IBMPlexSans-Bold.ttf) format("truetype");
+  }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
