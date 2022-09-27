@@ -9,10 +9,7 @@
                 </div>
                 <div class="col-md-6">
                     <h2>Who we work with</h2>
-                    <p> 
-                        We are the trusted partner for customs matters of more than 7000 companies across Europe.
-                        Since 20 years we successfully operate with customers from small and large good owners to freight forwarders and digital platforms across various industries.
-                    </p>
+                    <p>We are the trusted partner for customs matters of more than 7000 companies across Europe. Since 20 years we successfully operate with customers from small and large good owners to freight forwarders and digital platforms across various industries.</p>
                 </div>
             </div>
         </div>
@@ -27,6 +24,10 @@ export default {
 
 <style lang="scss" scoped>
 section {
+    padding: 60px 0;
+    @media only screen and (max-width: 660px) {
+        padding: 0;
+    }
     .img-bg {
         background-color: #F0F0F0;
     }
@@ -34,6 +35,9 @@ section {
         font-family: "IBMPlexBold", sans-serif;
         font-size: 16px;
     }
-
+    p {
+        font-family: "IBMPlexRegular", sans-serif;
+        color: #3D4D62;
+    }
 }
 </style>
