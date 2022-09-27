@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h1 class="underline">
+                    <h1 class="title underline">
                         Headache on complex customs matters for your business?
                     </h1>
                     <p>
@@ -45,6 +45,12 @@
       linear-gradient(rgba(0, 43, 44, 0.2), rgba(0, 43, 44, 0.2));
     background-blend-mode: overlay;
     position: relative;
+
+    .title {
+      font-family: 'IBMPlexBold', sans-serif;
+      font-size: 40px;
+    }
+
     @media only screen and (max-width: 660px) {
       background-position: bottom;
     }

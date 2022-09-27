@@ -3,7 +3,7 @@
         <nav class="navbar">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="../assets/Logo.png" alt="Logo" class="img-fluid" />
+                    <img src="../assets/Logo.png" alt="Logo" />
                 </a>
                 <button
                     class="navbar-toggler"
