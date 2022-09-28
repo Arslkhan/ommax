@@ -4,9 +4,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h1 class="title underline">
+                    <h1 class="title">
                         Headache on complex customs matters for your business?
                     </h1>
+                    <div class="line-bar"></div>
                     <p>
                         Customs Support is your neutral full-service customs broker for
                         complex customs matters with 20+ years of expertise in Europe and

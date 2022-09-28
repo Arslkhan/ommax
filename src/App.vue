@@ -18,13 +18,13 @@ export default {
 };
 </script>
 <style lang="scss">
-  #app {
+  // #app {
     // font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-  }
+    // -webkit-font-smoothing: antialiased;
+    // -moz-osx-font-smoothing: grayscale;
+    // text-align: center;
+    // color: #2c3e50;
+  // }
   @font-face {
   font-family: "IBMPlexRegular";
   src: url(./fonts/IBMPlexSans-Regular.ttf) format("truetype");
@@ -37,6 +37,16 @@ export default {
     font-family: "IBMPlexRegular", sans-serif;
     overflow-x: hidden;
   }
+  .line-bar {
+    width: 50px;
+    height: 3px;
+    top: 1020px;
+    left: 1071px;
+  }
+  .line-bar {
+      margin: 20px 0;
+      background: transparent url('assets/Rechteck957.png') 0% 0% no-repeat padding-box;
+    }
   .default-btn {
       background: rgb(1, 164, 183) !important;
       border-radius: 5px !important;
